@@ -15,7 +15,6 @@ const Navbar = () => {
                 <li className='p-4'>Home</li>
                 <li className='p-4'>Explanation</li>
                 <li className='p-4'>Example</li>
-                <li className='p-4'>About</li>
                 <li className='p-4'>OurTeam</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
@@ -27,7 +26,6 @@ const Navbar = () => {
                     <li className='p-4'>Home</li>
                     <li className='p-4'>Explanation</li>
                     <li className='p-4'>Example</li>
-                    <li className='p-4'>About</li>
                     <li className='p-4'>OurTeam</li>
                 </ul>
             </div>
