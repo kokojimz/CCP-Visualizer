@@ -35,10 +35,10 @@ const Hero = () => {
                 <p className='text-[#00df9a] font-bold p-2'>Coin Change Problem</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-6'>Simulator</h1>
                 <div className='flex justify-center items-center'>
-                    <p className='md:text-3xl sm:text-2xl text-xl font-bold'>
+                    <p className='md:text-2xl sm:text-1xl text-xl font-bold'>
                         Simple and cool project for 
                     </p>
-                    <div className='p-[10px] md:text-4xl sm:text-3xl text-2xl font-bold md:pl-4 pl-2 text-gray-500'>
+                    <div className='p-[10px] md:text-2xl sm:text-1xl text-xl font-bold md:pl-4 pl-2 text-gray-500'>
                         <span ref={el}></span>
                     </div>
                 </div>

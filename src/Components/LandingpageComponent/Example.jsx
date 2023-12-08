@@ -12,7 +12,7 @@ function Example() {
                 <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
                     <iframe className='p-3 flex w-full rounded-md'
                         width="550px" 
-                        height="400px" 
+                        height="300px" 
                         src="https://www.youtube.com/embed/DJ4a7cmjZY0?si=Ue57dmjF_x1XzflI" 
                         title="YouTube video player" 
                         frameborder="0" 

@@ -3,7 +3,7 @@ import love from '../../assets/heart-431.png'
 
 function Footer() {
     return (
-        <div class="bg-white dark:bg-[#000300]">
+        <div class="dark:bg-[#000300]">
             <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
                 <a href="https://github.com/kokojimz/CCP-Visualizer">
                     <h1 className= 'w-full text-4xl font-bold text-[#00df9a]'>CCP.</h1>
