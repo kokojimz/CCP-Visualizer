@@ -1,13 +1,13 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-import Laptop from "../../assets/laptop.jpg";
+import Coin from "../../assets/HD-wallpaper-gold-gold-bullion-gold-3d-gold-coins.jpg"
 
 function Explanation() {
     const navigate = useNavigate();
     return (
         <div id='Explanation' className='w-full bg-white py-16 px-4'>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-                <img className='w-[500px] mx-auto my-4' src={Laptop} alt="/" />
+                <img className='w-[500px] mx-auto my-4' src={Coin} alt="/" />
                 <div className='flex flex-col justify-center'>
                     <p className='text-[#00df9a] text-[30px] font-bold'>Coin Change Problem</p>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Explanation</h1>
