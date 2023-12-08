@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Group - 7
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About 
+This project was created to fulfill the final assignment of Algorithm Design and Analysis course at BINUS University, this web-based project aims to simulate the algorithm used in the Coin change problem.
 
-## Available Scripts
+## Stack
+- React
+- Tailwind CSS
+- Vercel
 
-In the project directory, you can run:
+## Local Installation
 
-### `npm start`
+1. Clone this repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  git clone https://github.com/kokojimz/CCP-Visualizer.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.  Go to the project directory
 
-### `npm test`
+```bash
+  cd CCP-Visualizer
+```
+3. Open your IDE
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  code .
+```
 
-### `npm run build`
+4. Install the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm i
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Start the app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm start
+```
+  
+## Developed by
+```
+1. AARON KENNY RIJADI - 2602115015
+2. MUHAMMAD ZIDDAN AZZAKY - 2602119915
+3. NICHOLAS CHRISTIAN - 2602138113
+4. MUHAMMAD BAGIER ASSEGGAF - 2602134531
+5. REYNALDY MARCHELL BAGAS ADJI - 2602141846
+```  
