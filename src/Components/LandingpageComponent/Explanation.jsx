@@ -5,7 +5,7 @@ import Laptop from "../../assets/laptop.jpg";
 function Explanation() {
     const navigate = useNavigate();
     return (
-        <div className='w-full bg-white py-16 px-4'>
+        <div id='Explanation' className='w-full bg-white py-16 px-4'>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img className='w-[500px] mx-auto my-4' src={Laptop} alt="/" />
                 <div className='flex flex-col justify-center'>

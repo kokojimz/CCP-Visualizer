@@ -4,6 +4,8 @@ import Hero from './Hero'
 import Explanation from './Explanation'
 import Example from './Example'
 import "../../index.css";
+import Cards from './Cards'
+import Footer from './Footer'
 
 function Landingpage() {
     return (
@@ -12,6 +14,8 @@ function Landingpage() {
             <Hero />
             <Explanation/>
             <Example />
+            <Cards />
+            <Footer />
         </div>
     )
 }
