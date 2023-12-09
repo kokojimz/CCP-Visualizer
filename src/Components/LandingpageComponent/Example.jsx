@@ -13,7 +13,7 @@ function Example() {
                     <iframe className='p-3 flex w-full rounded-md'
                         width="550px" 
                         height="300px" 
-                        src="https://www.youtube.com/embed/DJ4a7cmjZY0?si=Ue57dmjF_x1XzflI" 
+                        src="https://www.youtube.com/embed/RcvvEHwLqw4?si=5OqY5GaUYqjc_Rno" 
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
