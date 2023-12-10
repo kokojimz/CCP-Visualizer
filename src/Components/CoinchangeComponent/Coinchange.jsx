@@ -67,7 +67,10 @@ export default function Coinchange() {
         <div className='md:text-3xl sm:text-2xl text-xl font-bold flex justify-center items-center pb-4'>Coin change simulator</div>
         <CoinList coins={parseCoins(coinInput)} />
       </Header>
-      <div className="w-full bg-green-600 text-white text-center py-2 px-4 text-xl font-bold shadow-md mb-4 rounded">{amount}</div>
+      <div className="w-full bg-green-600 text-white text-center py-2 px-4 text-xl font-bold shadow-md mb-4 rounded">
+        <b>Combinations :</b> <br />
+        {answer.length}
+      </div>
       <Inputs
         amount={amount}
         setAmount={setAmount}
