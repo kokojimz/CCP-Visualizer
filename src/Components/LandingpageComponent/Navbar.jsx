@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import {AiOutlineClose,AiOutlineMenu} from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-
+    const navigate = useNavigate();
     const handleNav = () => {
         setNav(!nav);
     }
@@ -20,6 +21,7 @@ const Navbar = () => {
             <ul className='hidden md:flex'>
                 <li className='p-4'><button onClick={() => scrollToSection('Home')}>Home</button></li>
                 <li className='p-4'><button onClick={() => scrollToSection('Explanation')}>Explanation</button></li>
+                <li className='p-4'><button onClick={() => navigate('/Coinchange')}>Simulation</button></li>
                 <li className='p-4'><button onClick={() => scrollToSection('Example')}>Example</button></li>
                 <li className='p-4'><button onClick={() => scrollToSection('OurTeam')}>OurTeam</button></li>
             </ul>
@@ -31,6 +33,7 @@ const Navbar = () => {
                 <ul className='uppercase p-4'>
                     <li className='p-4'><button onClick={() => scrollToSection('Home')}>Home</button></li>
                     <li className='p-4'><button onClick={() => scrollToSection('Explanation')}>Explanation</button></li>
+                    <li className='p-4'><button onClick={() => navigate('/Coinchange')}>Simulation</button></li>
                     <li className='p-4'><button onClick={() => scrollToSection('Example')}>Example</button></li>
                     <li className='p-4'><button onClick={() => scrollToSection('OurTeam')}>OurTeam</button></li>
                 </ul>

@@ -5,6 +5,7 @@ import Inputs from './Inputs';
 import RunButton from './RunButton';
 import CombinationDisplay from './CombinationDisplay';
 import "../../index.css";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Coinchange() {
@@ -12,6 +13,7 @@ export default function Coinchange() {
   const [amount, setAmount] = useState("4");
   const [answer, setAnswer] = useState([]);
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const parseCoins = (coinString) => {
     // Filter out any empty strings from the array to prevent parseInt from returning NaN
@@ -64,6 +66,7 @@ export default function Coinchange() {
   return (
     <div>
       <Header>
+        <button onClick={() => navigate('/')} className="py-2 px-6 bg-green-600 text-white rounded cursor-pointer transition-background duration-300 ease-in-out font-bold text-xl hover:bg-green-700 hover:shadow-md ml-2">Back</button>
         <div className='md:text-3xl sm:text-2xl text-xl font-bold flex justify-center items-center pb-4'>Coin change simulator</div>
         <CoinList coins={parseCoins(coinInput)} />
       </Header>
